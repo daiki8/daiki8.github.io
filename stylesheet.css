@@ -1,0 +1,158 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div, img {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+img{
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+
+/*  layout  */
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+/*header {
+  height: 60px;
+  background-color: #26d0c9;
+  color: #fff;
+  border-radius: 60px;
+  margin: 20px 80px 20px 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 30px;
+}
+header a{
+  color: #fff;
+}
+.header-logo {
+  font-size: 36px;
+  margin: 0 20px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav li {
+  float: left;
+  padding: 33px 20px;
+}
+*/
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*margin: 100px 0px;*/
+}
+/*.main h1 {
+  font-size: 240px;
+}
+.main h2 {
+  font-size: 60px;
+}
+*/
+.main span {
+  /*color: #ff4a4a;*/
+  background:-webkit-gradient(linear,to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background:-moz-linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper {
+  
+}
+.headline {
+  text-align: center;
+  font-size: 2rem;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  margin-bottom: 25px;
+}
+/*.headline span {
+  background:-webkit-gradient(linear, left top, right bottom, from(#43e97b), to(#38f9d7));
+  background:-moz-linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+*/
+.contents {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contents-item {
+
+  border-radius: 3px;
+  border: 5px solid #000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contents-item table {
+  width: 100%;
+  margin: 0 auto;
+}
+.contents-item th,.contents-item td {
+  padding: .75rem 0;
+}
+
+.copy-container {
+  padding-bottom: 100px;
+}
+.copy-container h1{
+  font-size: 10rem;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+}
+.copy-container h2 {
+  font-size: 4rem;
+}
+.profile-container {
+  /*background-color: #ff4a4a;*/
+  padding: 100px 0px;
+}
+.profile-container p {
+  text-align: center;
+}
+.skill-container {
+  padding: 100px 0px;
+}
+.skill-container .contents {
+  justify-content: space-between;
+  padding: 16px;
+} 
+.skill-container .contents-item {
+  width: 49%;
+}
+.work-container {
+  /*background-color: #F6F7FC;*/
+  padding: 100px 0px;
+}
+.contact-container {
+  padding: 100px 0px;
+}
+.contact-container {
+  text-align: center;
+}
+footer {
+  /*background-color: #263238;*/
+  height: 90px;
+}

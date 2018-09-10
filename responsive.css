@@ -1,0 +1,27 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .copy-container h1{
+    font-size: 7rem;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+  }
+  .copy-container h2 {
+    font-size: 3rem;
+  }
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .copy-container h1{
+    font-size: 4rem;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+  }
+  .copy-container h2 {
+    font-size: 2rem;
+  }
+  .contents-item {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 16px;
+  }
+}
