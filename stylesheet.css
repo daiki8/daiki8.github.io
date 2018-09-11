@@ -142,7 +142,7 @@ header a{
 .skill-container .contents-item {
   width: 49%;
 }
-.skill-container h3 {
+.skill-container .item-headline {
   padding-top: 15px;
 }
 .work-container {
