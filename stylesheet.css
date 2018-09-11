@@ -108,6 +108,7 @@ header a{
 .contents-item table {
   width: 100%;
   margin: 0 auto;
+  table-layout: fixed;
 }
 .contents-item th,.contents-item td {
   padding: .75rem 0;
@@ -140,6 +141,9 @@ header a{
 } 
 .skill-container .contents-item {
   width: 49%;
+}
+.skill-container h3 {
+  padding-top: 15px;
 }
 .work-container {
   /*background-color: #F6F7FC;*/
