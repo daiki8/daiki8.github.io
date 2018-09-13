@@ -123,7 +123,11 @@ body {
 }
 .work-container .contents {
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.work-container .contents-item {
+  widows: 100%;
 }
 .contact-container {
   padding: 100px 0px;
