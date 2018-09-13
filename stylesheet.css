@@ -6,7 +6,9 @@ form, input, div, img {
   margin: 0;
   padding: 0;
 }
-
+html {
+  font-size: 100%;
+}
 li {
   list-style: none;
 }
