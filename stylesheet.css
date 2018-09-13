@@ -30,54 +30,25 @@ img{
 body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
-
-/*header {
-  height: 60px;
-  background-color: #26d0c9;
-  color: #fff;
-  border-radius: 60px;
-  margin: 20px 80px 20px 80px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 30px;
-}
-header a{
-  color: #fff;
-}
-.header-logo {
-  font-size: 36px;
-  margin: 0 20px;
-}
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.header-nav li {
-  float: left;
-  padding: 33px 20px;
-}
-*/
 .main {
   max-width: 1200px;
   margin: 0 auto;
   /*margin: 100px 0px;*/
 }
-/*.main h1 {
-  font-size: 240px;
-}
-.main h2 {
-  font-size: 60px;
-}
-*/
-.main span {
+.main span{
   background:-webkit-gradient(linear,to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
   background:-moz-linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
   background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.contents-item span {
+  background:-webkit-gradient(linear,to top, #ff0844 0%,#ffb199 100%);
+  background:-moz-linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+  background: linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .headline {
   text-align: center;
   font-size: 2rem;
@@ -91,11 +62,11 @@ header a{
   flex-wrap: wrap;
 }
 .contents-item {
-  border-radius: 3px;
-  /*border: 5px solid #000;*/
+  border-radius: 2px;
+  /*border: 1px solid rgba(0, 0, 0, 0.2);*/
   text-align: center;
   margin-bottom: 25px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
 }
 
 .contents-item table {
