@@ -21,6 +21,7 @@
     text-align: center;
   }
   .copy-container h2 {
+    display: none;
     font-size: 3vw;
   }
   .headline {
@@ -35,7 +36,7 @@
   .skill-container .contents-item {
     width: 100%;
     border-radius: 3px;
-    border: 5px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
     text-align: center;
     margin-bottom: 25px;
   }
