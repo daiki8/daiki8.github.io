@@ -49,6 +49,14 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.menu span {
+  color: #f9748f;
+  background:-webkit-gradient(linear,to top, #ff0844 0%,#ffb199 100%);
+  background:-moz-linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+  background: linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .headline {
   text-align: center;
   font-size: 2rem;
@@ -122,4 +130,8 @@ body {
 }
 .contact-container {
   text-align: center;
+}
+
+nav {
+  display: none;
 }
