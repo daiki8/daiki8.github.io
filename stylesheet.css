@@ -49,7 +49,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu span {
+.menu-item .menu-icon {
   color: #f9748f;
   background:-webkit-gradient(linear,to top, #ff0844 0%,#ffb199 100%);
   background:-moz-linear-gradient(to top, #ff0844 0%,#ffb199 100%);
@@ -138,4 +138,45 @@ body {
 
 nav {
   display: none;
+}
+.menu-item {
+  flex-grow: 1;
+  text-align: center;
+  height: 100%;
+  display: table;
+}
+.menu-item a{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* ripple effect */
+.ripple {
+  overflow: hidden;
+  position: relative;
+}
+
+.ripple__effect {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+
+  position: absolute;
+  border-radius: 100%;
+  pointer-events: none;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.ripple__effect.is-show {
+  animation: ripple 0.4s ease-out;
+}
+@keyframes ripple {
+  from {
+      opacity: 1;
+  }
+  to {
+      transform: scale(2);
+      opacity: 0;
+  }
 }

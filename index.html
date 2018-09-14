@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="ripple.js"></script>
   </head>
   <body>
     <div class="main">
@@ -187,10 +189,24 @@
     </div>
     <nav>
       <div class="menu">
-          <div><a href="#Profile"><span class="fas fa-user-alt"></span></a></div>
-          <div><a href="#Skill"><span class="fab fa-ethereum"></span></a></div>
-          <div><a href="#Work"><span class="fas fa-archive"></span></a></div>
-          <div><a href="#Contact"><span class="fas fa-envelope"></span></a></div>
+          <div class="menu-item ripple">
+            <span class="ripple__effect"></span>
+            <a href="#Profile">
+              <span class="fas fa-user-alt menu-icon"></span>
+            </a>
+          </div>
+          <div class="menu-item ripple">
+            <a href="#Skill"><span class="fab fa-ethereum menu-icon"></span></a>
+            <span class="ripple__effect"></span>
+          </div>
+          <div class="menu-item ripple">
+            <a href="#Work"><span class="fas fa-archive menu-icon"></span></a>
+            <span class="ripple__effect"></span>
+          </div>
+          <div class="menu-item ripple">
+            <a href="#Contact"><span class="fas fa-envelope menu-icon"></span></a>
+            <span class="ripple__effect"></span>
+          </div>
       </div>
     </nav>
   </body>
