@@ -1,4 +1,4 @@
-/* CSSのリセット（消さないでください） */
+/* CSSのリセット */
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -33,7 +33,6 @@ body {
 .main {
   max-width: 1200px;
   margin: 0 auto;
-  /*margin: 100px 0px;*/
 }
 .main span{
   background:-webkit-gradient(linear,to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
@@ -118,16 +117,12 @@ body {
   padding-top: 15px;
 }
 .work-container {
-  /*background-color: #F6F7FC;*/
   padding: 100px 0px;
 }
 .work-container .contents {
   margin: 0 auto;
   justify-content: space-between;
   width: 100%;
-}
-.work-container .contents-item {
-  widows: 100%;
 }
 .contact-container {
   padding: 100px 0px;

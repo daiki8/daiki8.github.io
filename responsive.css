@@ -8,6 +8,9 @@
   .copy-container h2 {
     font-size: 2rem;
   }
+  .work-container .contents-item {
+    margin: 0 auto 25px;
+  }
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
@@ -42,6 +45,9 @@
   }
   .work-container {
     padding: 20px 0;
+  }
+  .work-container .contents-item {
+    margin: 0 auto 25px;
   }
   .contact-container {
     padding: 20px 0;
