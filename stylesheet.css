@@ -102,6 +102,10 @@ body {
 }
 .profile-container p {
   text-align: center;
+  font-size: 1.3rem;
+}
+.profile-container a {
+  color: #57d64b;
 }
 .skill-container {
   padding: 100px 0px;
